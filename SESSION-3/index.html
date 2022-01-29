@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mystyle.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Simple JS Calculator</h1>
+    </header>
+
+    <main>
+        <div class="instructions">
+            <p>Instructions</p>
+            <ol>
+                <li>Click the button to start the program!</li>
+                <li>Add the first number into the prompt</li>
+                <li>Add the second number into de prompt</li>
+                <li>The problem will display the results of the four operation(+ - * /)</li>
+            </ol>
+         </div>
+       
+
+       <div class="btn-container">
+           <button onclick="start()">Start</button>
+       </div> 
+
+        <div class="results" >
+            <h2>Results</h2>
+            <p id="numbers"></p>
+            <h3>Addition</h3>
+            <p id="sum"></p>
+            <h3>Substraction</h3>
+            <p id="sub"></p>
+            <h3>Division</h3>
+            <p id="divi"></p>
+            <h3>Multiplication</h3>
+            <p id="mult"></p>
+        </div>
+    </main>
+
+
+    <script src="calculator.js"></script>
+    <footer>
+        <p>All the copyrights reserved</p>
+    </footer>
+</body>
+</html>

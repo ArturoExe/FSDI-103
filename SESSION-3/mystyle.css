@@ -1,0 +1,77 @@
+
+
+/* CSS FOR script.js 
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 1rem 1rem teal;
+    border: 1.5px solid gray;
+}
+
+.name{
+    color:rgb(180, 0, 0);
+    
+  
+} */
+
+
+body{
+    background-color: #1d3557;
+    color: #f1faee;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: #e63946;
+}
+
+h3{
+    letter-spacing: 0.2rem;
+}
+
+.instructions{
+    font-weight: 600;
+}
+
+.btn-container{
+    text-align: center;
+    margin: 5em auto;
+
+}
+.btn-container button{
+    color: #f1faee;
+
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-weight: 800;
+    padding: 1em 3em;
+    border-radius: 10rem;
+    background-color: rgb(69, 160, 212);
+    border-style: none;
+}
+.btn-container button:hover{
+    background-color: rgb(121, 183, 219);
+}
+
+.results{
+    text-align: center;
+    
+}
+
+
+
+footer{
+    
+    position:absolute;
+    bottom: -9px;
+}
+
+
+
+
