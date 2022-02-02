@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>SESSION-4</title>
+</head>
+<body>
+<!-- This code works with the script.js -->
+    <!-- <input type="text" id="txtCity" placeholder="Enter city">
+    <button onclick="getCity()">SEND</button>
+    <p id="text">The entered city is </p> -->
+
+
+        <header>
+            <h1>Tamagotchi</h1>
+            <div class="text-pokemon" id="text-alert">
+                <div class="img-pokemon-box">
+                    <img src="img/pokebox.png" alt="start game">
+
+                        <p>Looks like pikachu needs some care...</p>
+                    
+                </div>
+                
+                <button onclick="startGame();">START!!</button>
+
+            </div>
+        </header>
+
+        <main>
+          
+           
+
+            <div class="stats">
+                <div>
+                    <h3>Hunger</h3>
+                     <p id="txtHunger">50</p>
+                     <progress id="hungerBar" max="100" value="50"></progress>
+                </div>
+                
+                <div>
+                    <h3>Happiness</h3>
+                    <p id="txtHappiness">60</p><progress id="happinessBar" max="100" value="50"></progress>
+                </div>
+
+               <div>
+                     <h3>Energy</h3>
+                     <p id="txtEnergy">80</p><progress id="energyBar" max="100" value="50"></progress>
+               </div>
+                
+            </div>
+
+
+            <div class="pokemon-controllers">
+                <div class="img-container">
+                    <img src="https://i.gifer.com/4bXB.gif" alt="pikachu">
+                </div>
+
+                <div class="button-container">
+                    <button onclick="feedPokemon();">Feed</button>
+                    <button onclick="petPokemon();">Pet</button>
+                    <button onclick="playPokemon();">Play</button>
+                </div>
+            </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

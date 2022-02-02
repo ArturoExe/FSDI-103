@@ -1,0 +1,138 @@
+/* Global */
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+body{
+    font-family: 'VT323', monospace;   
+     margin: 0;
+    padding: 0;
+    background-color:#19282F;
+    background-image: url("https://c.wallhere.com/photos/93/a9/pixel_art_8_bit-1442071.jpg!d");
+    background-repeat: repeat;
+}
+
+/*HEADER*/
+header{
+    text-align: center;
+    font-size: 2.5em;
+    letter-spacing: 0.4rem;
+    color: #f2c105;
+    -webkit-text-stroke: 0.1px #204fa7;
+    text-transform: uppercase;
+}
+
+.text-pokemon{
+    display: none;
+    text-align: center;
+    position: relative;
+}
+
+.text-pokemon p{
+position: absolute;
+top: 20%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size: 0.3em;
+color:#204fa7; ;
+}
+
+
+main{
+    display: none;
+}
+
+/*MAIN*/
+main .img-container img{
+
+    width: 10rem;
+    height: auto;
+   
+
+}
+
+.pokemon-controllers{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button-container{
+    justify-content: space-around;
+    flex-direction: column;
+    display: flex;
+   
+}
+
+button{
+    margin: 0.9em;
+    width: 7em;
+    height: 3em;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+    background-color:black;
+    border-style: none;
+    border-radius: 50px;
+    box-shadow:4px 2.4px blanchedalmond ;
+    z-index: 100;
+}
+
+button:hover{
+    color: black;
+    background-color:rgb(255, 255, 255);
+    box-shadow:4px 2.4px rgb(0, 0, 0) ;
+    z-index: 100;
+}
+
+.stats{
+
+     color: #1f1f1e;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 2em;
+}
+
+.stats h3{
+    font-weight: 500;
+    font-size: 1.5rem;
+    display: inline-block;
+}
+
+.stats p{
+    margin:1em;
+    display:inline-block;
+}
+
+
+
+
+@media(min-width:830px){
+
+    .text-pokemon{
+        display: flex;
+    }
+
+    .text-pokemon img{
+        margin: 2em;
+    }
+
+    .text-pokemon p{
+        
+        top: 30%;
+        left: 50%;
+        padding:10vh;
+        font-size:1.5rem;
+        word-break:keep-all
+        
+    }
+
+    .img-pokemon-box img{
+        width: 50%;
+        height: auto;
+    }
+
+    
+
+   
+}
